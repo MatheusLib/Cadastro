@@ -1,0 +1,36 @@
+body{ font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:baseline;}
+.box{    
+    position: absolute;
+    top: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 05px;
+    color: white;
+    }
+legend{
+    color: white;
+    text-align: center;
+    }
+    .inputBox{
+        position: relative;
+    }
+.inputUser{
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        width: 100%;
+        font-size: medium;
+        outline: none;
+        color: white;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    pointer-events: none;
+    transition: .5s;
+
+}
